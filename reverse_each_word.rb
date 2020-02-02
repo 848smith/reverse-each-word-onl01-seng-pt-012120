@@ -4,4 +4,5 @@ def reverse_each_word(sentence)
   phrase.reverse_each do |word|
     new_phrase << word
   end
+  new_phrase.join
 end
