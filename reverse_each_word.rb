@@ -3,6 +3,4 @@ def reverse_each_word(sentence)
   new_phrase = []
   phrase.each.reverse
     new_phrase << sentence
-  end
-  new_phrase
 end
