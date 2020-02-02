@@ -3,4 +3,5 @@ def reverse_each_word(sentence)
   new_phrase = []
   phrase.reverse_each do |word|
     new_phrase << word
+  end
 end
